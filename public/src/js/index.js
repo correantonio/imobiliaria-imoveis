@@ -2,21 +2,18 @@ const lista = document.querySelector('.c-contacts')
 const image = document.querySelector('.image')
 
 const changeFather = () => {
-  const desktop = window.matchMedia("(min-width: 800px)");
+  const desktop = window.matchMedia('(min-width: 800px)')
 
-  if(desktop.matches){
+  if (desktop.matches) {
     document.querySelector('.l-hero').appendChild(lista)
-
     document.body.insertBefore(image, document.body.querySelector('.l-main'))
-  }else{
+
+    image.querySelector('img').setAttribute('src', '/public/src/img/bg-desktop.jpg')
+
+    console.log(image.querySelector('img').getAttribute('src'))
+  } else {
     document.querySelector('.l-main').appendChild(lista)
   }
 }
-
-
-const imagem = document.querySelector('.image img')
-console.log(imagem)
-
-imagem.src="/src/img/bg-desktop.jpg"
 
 window.addEventListener('resize', changeFather)
