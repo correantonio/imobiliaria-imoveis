@@ -33,7 +33,7 @@ body{
   font-family: var(--typeface--body);
   line-height: 1.5rem;
   min-height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 @media screen and (min-width: 800px) {
