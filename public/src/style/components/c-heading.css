@@ -5,17 +5,24 @@
   margin-bottom: .75rem;
 }
 .c-heading--xxl{
-  color: var(--pumpkin-700);
+  color: var(--brown-700);
   display: none;
-  font: 700 128px/ 100% ;
-  left: 80px;
-  opacity: .04;
-  position: absolute;
-  top: 32px;
+  font: 700 128px/ 100% var(--typeface--heading), sans-serif;
 }
 
 @media screen and (min-width: 800px) {
   .c-heading{
     color: var(--pumpkin-700);
+  }
+}
+
+@media screen and (min-width: 900px){
+  .c-heading--xxl{
+    display: block;
+    max-width: 540px;
+    opacity: .04;
+    position: absolute;
+    top: 32px;
+    z-index: -1;
   }
 }
