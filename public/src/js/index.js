@@ -8,7 +8,8 @@ const changeFather = () => {
     document.querySelector('.l-hero').appendChild(lista)
     document.body.insertBefore(image, document.body.querySelector('.l-main'))
 
-    image.querySelector('img').setAttribute('src', '/public/src/img/bg-desktop.jpg')
+    const newLocal = '/public/src/img/bg-desktop.jpg'
+    image.querySelector('img').setAttribute('src', newLocal)
 
     console.log(image.querySelector('img').getAttribute('src'))
   } else {
