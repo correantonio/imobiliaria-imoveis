@@ -1,0 +1,58 @@
+.c-cards{
+  --_border-color: var(--brown-300);
+
+  background: var(--pumpkin-900);
+  box-shadow: 0 180px var(--pumpkin-900);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.c-cards div{
+  border-top: 1px solid var(--_border-color);
+  border-bottom: 1px solid var(--_border-color);
+  display: inherit;
+  flex: 1 0 100%;
+}
+
+.c-cards > .c-card:not( :nth-child(3) ){
+  border-right: 1px solid var(--_border-color);
+}
+
+.c-cards div > :nth-child(1){
+  border-right: 1px solid var(--_border-color);
+}
+
+.c-cards > .c-card,
+.c-cards div > .c-card {
+  flex: 1 0 fit-content;
+}
+
+/* Cards */
+.c-card{
+  color: var(--brown-300);
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 800px){
+  .c-cards{
+    box-shadow: none;
+    flex-wrap: nowrap;
+    padding: 40px;
+  }
+
+  .c-cards div,
+  .c-card {
+    flex: 0 1 fit-content;
+  }
+
+  .c-cards div{
+    border: none;
+  }
+
+  .c-cards :nth-child(3){
+    border-right: 1px solid var(--_border-color);
+  }
+}

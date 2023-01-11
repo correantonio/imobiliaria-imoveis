@@ -1,0 +1,21 @@
+/* Texts */
+.c-heading{
+  color: #fff;
+  font: 700 calc(var(--module-size) * 3.5)/60px var(--typeface--heading);
+  margin-bottom: .75rem;
+}
+.c-heading--xxl{
+  color: var(--pumpkin-700);
+  display: none;
+  font: 700 128px/ 100% ;
+  left: 80px;
+  opacity: .04;
+  position: absolute;
+  top: 32px;
+}
+
+@media screen and (min-width: 800px) {
+  .c-heading{
+    color: var(--pumpkin-700);
+  }
+}

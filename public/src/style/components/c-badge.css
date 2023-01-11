@@ -1,0 +1,37 @@
+/* Component, Badge */
+.badge{
+  color: var(--pumpkin-300);
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 12px;
+  line-height: 100%;
+}
+.badge--header{
+  background-color: var(--pumpkin-50);
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+.badge--contact{
+  align-items: center;
+  border: 1px solid currentColor;
+  color: var(--brown-50);
+  display: flex;
+  gap: .5rem;
+  max-width: fit-content;
+}
+.badge--primary{
+  background-color: var(--pumpkin-50);
+  /* border-color: var(--pumpkin-400); */
+  color: var(--pumpkin-400);
+  font-weight: 600;
+}
+@media screen and (min-width: 800px) {
+  .badge--contact:not(.badge--primary){
+    border-color:  #E0DCD7;
+    color: var(--brown-300);
+  }
+  .badge--contact:hover:not(.badge--primary){
+    background-color: #fff;
+    border-color: #fff;
+  }
+}

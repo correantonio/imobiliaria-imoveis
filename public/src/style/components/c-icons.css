@@ -1,0 +1,36 @@
+/* Icons */
+.c-icon{
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+.c-icon--whatsapp{
+  background: center/ cover url("../../icon/contact/ic_outline-whatsapp.svg") no-repeat;
+}
+.c-icon--whatsapp{
+  background: center/ cover url("../../icon/contact/ic_outline-whatsapp.svg") no-repeat;
+}
+.c-icon--instagram{
+  background: center/ cover url("../../icon/contact/carbon_logo-instagram.svg") no-repeat;
+}
+.c-icon--email{
+  background: center/ cover url("../../icon/contact/carbon_email.svg") no-repeat;
+}
+.c-icon--link{
+  background: center/ cover url("../../icon/contact/carbon_link.svg") no-repeat;
+}
+.c-icon--bed{
+  background: center/ cover url("../../icon/card/bed.svg") no-repeat;
+}
+.c-icon--suite{
+  background: center/ cover url("../../icon/card/suite.svg") no-repeat;
+}
+.c-icon--bathroom{
+  background: center/ cover url("../../icon/card/bathroom.svg") no-repeat;
+}
+.c-icon--auto{
+  background: center/ cover url("../../icon/card/auto.svg") no-repeat;
+}
+.c-icon--ruler{
+  background: center/ cover url("../../icon/card/ruler.svg") no-repeat;
+}

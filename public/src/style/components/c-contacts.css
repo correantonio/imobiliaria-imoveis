@@ -1,0 +1,8 @@
+/* contact list */
+.c-contacts{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  padding: 24px 1rem 40px 1rem;
+}
