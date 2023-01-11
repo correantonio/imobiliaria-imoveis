@@ -2,7 +2,6 @@
   --_border-color: var(--brown-300);
 
   background: var(--pumpkin-900);
-  box-shadow: 0 180px var(--pumpkin-900);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -38,7 +37,7 @@
 
 @media screen and (min-width: 800px){
   .c-cards{
-    box-shadow: none;
+    box-shadow: -8px -8px 32px rgba(20, 10, 0, 0.12);
     flex-wrap: nowrap;
     padding: 40px;
   }

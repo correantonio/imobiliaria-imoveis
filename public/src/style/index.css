@@ -52,7 +52,6 @@ body{
   body > .image{
     position: initial;
     grid-column: 5/ -1;
-    box-shadow: none;
   }
 
   body .image img{
