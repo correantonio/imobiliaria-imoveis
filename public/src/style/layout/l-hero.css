@@ -6,19 +6,6 @@
   margin-bottom: 128px;
 }
 
-.image{
-  box-shadow: 0 400px 0 var(--pumpkin-900);
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: -1;
-}
-
-.image img{
-  width: 100%;
-}
-
 .l-hero p {
   margin-bottom: 1rem;
 }
