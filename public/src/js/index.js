@@ -8,13 +8,16 @@ const changeFather = () => {
     document.querySelector('.l-hero').appendChild(lista)
     document.body.insertBefore(image, document.body.querySelector('.l-main'))
 
-    const newLocal = '/public/src/img/bg-desktop.jpg'
+    const newLocal = '../../src/img/bg-desktop.jpg'
     image.querySelector('img').setAttribute('src', newLocal)
-
-    console.log(image.querySelector('img').getAttribute('src'))
   } else {
     document.querySelector('.l-main').appendChild(lista)
   }
 }
 
-window.addEventListener('resize', changeFather)
+
+// window.addEventListener('resize', changeFather)
+
+if (window.innerWidth >= 1000) {
+  window.addEventListener('resize', changeFather)
+}
