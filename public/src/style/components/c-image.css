@@ -1,0 +1,30 @@
+.c-image img{
+  object-fit: cover;
+  width: 100%;
+}
+
+.c-image--mobile{
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.c-image--desktop{
+  display: none;
+}
+
+@media screen and (min-width: 800px){
+  .c-image.c-image--mobile{
+    display: none;
+  }
+
+  .c-image--desktop{
+    display: block;
+  }
+  .c-image--desktop img{
+    height: 100%;
+    object-fit: cover;
+  }
+}

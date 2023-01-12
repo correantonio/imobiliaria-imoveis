@@ -38,33 +38,59 @@
         <span>Preços para as unidades a partir de: R$ 500.000,00</span>
       </div>
 
-      <div class="image">
+      <div class="c-image c-image--mobile">
         <img src="./src/img/bg-mobile.jpg" alt="Empreendimentos a beira mar" />
       </div>
       <span class="c-heading--xxl">Chamber of Secrets</span>
     </header>
+    <div class="c-image c-image--desktop">
+      <img
+        src="./src/img/bg-desktop.jpg"
+        alt="Ótima oportunidade para empreendimento no Rio de Janeiro"
+      />
+    </div>
     <main class="l-main">
       <ul class="c-cards">
         <li class="c-card">
           <span class="c-icon c-icon--bed"></span>
-          2 a 5 dormitórios
+          <p>
+            2 a 5
+            <br>
+            dormitórios
+          </p> 
         </li>
         <li class="c-card">
           <span class="c-icon c-icon--suite"></span>
-          2 a 5 dormitórios
+          <p>
+            2 a 5
+            <br>
+            dormitórios
+          </p> 
         </li>
         <li class="c-card">
           <span class="c-icon c-icon--bathroom"></span>
-          1 a 2 banheiros
+          <p>
+            1 a 2
+            <br>
+            banheiros
+          </p> 
         </li>
         <div>
           <li class="c-card">
             <span class="c-icon c-icon--auto"></span>
-            1 Vaga para auto
+            <p>
+              1 Vaga
+              <br>
+              para auto
+            </p> 
           </li>
           <li class="c-card">
             <span class="c-icon c-icon--ruler"></span>
-            Área total de 125m² a 324m²
+            <p>
+              Área total
+              <br>
+              de 125m² a 324m²
+            </p> 
           </li>
         </div>
       </ul>
@@ -115,6 +141,24 @@
         </li>
       </ul>
     </main>
-    <script src="/public/src/js/index.js"></script>
+    <!---
+      <script src="/public/src/js/index.js"></script>
+    -->
+    <script>
+      const lista = document.querySelector('.c-contacts')
+
+const changeFather = () => {
+  const desktop = window.matchMedia('(min-width: 800px)')
+
+  if (desktop.matches) {
+    document.querySelector('.l-hero').appendChild(lista)
+  } else {
+    document.querySelector('.l-main').appendChild(lista)
+  }
+}
+
+window.addEventListener('resize', changeFather)
+
+    </script>
   </body>
 </html>
