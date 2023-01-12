@@ -29,6 +29,7 @@
 /* resets */
 
 body{
+  background: var(--pumpkin-900);
   color: var(--brown-50);
   font-family: var(--typeface--body);
   line-height: 1.5rem;
@@ -49,18 +50,14 @@ body{
     grid-column: 1/ span 4;
   }
 
-  body > .image{
-    position: initial;
+  body > .c-image{
     grid-column: 5/ -1;
-  }
-
-  body .image img{
-    object-fit: cover;
-    height: 100%;
+    margin-left: 1rem;
+    position: initial;
   }
 
   body main{
-    grid-column: 3/ -1;
+    grid-column: 2/ -1;
   }
 }
 

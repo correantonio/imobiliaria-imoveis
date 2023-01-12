@@ -35,10 +35,13 @@
   padding: 1rem;
 }
 
+
+
 @media screen and (min-width: 800px){
   .c-cards{
     box-shadow: -8px -8px 32px rgba(20, 10, 0, 0.12);
-    flex-wrap: nowrap;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     padding: 40px;
   }
 
@@ -49,6 +52,8 @@
 
   .c-cards div{
     border: none;
+    grid-column: span 2;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .c-cards :nth-child(3){
