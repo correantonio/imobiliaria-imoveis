@@ -25,4 +25,4 @@ Todos os estabelecimentos estão com obras finalizadas e possuem um design inspi
 A empresa possui também um Stand no Rio de Janeiro, que disponibiliza mais informações sobre cada imóvel.
 
 ## Documentação
-Você pode conferir os tokens utilizados no design e na construção da aplicação no meu [Behance](https://www.behance.net/antonioal97). Ou pode acessar o projeto diretamento no [Figma](https://www.figma.com/file/qOKkphWho5Iqi9tDn259nm/Banner-Desafio-Imobiliaria?t=n6cp2jk5bdH1rYGQ-1).
+Você pode conferir os tokens utilizados no design e na construção da aplicação no meu [Behance](https://www.behance.net/antonioal97).
