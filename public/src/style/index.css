@@ -29,6 +29,7 @@
 /* resets */
 
 body{
+  background: var(--pumpkin-900);
   color: var(--brown-50);
   font-family: var(--typeface--body);
   line-height: 1.5rem;

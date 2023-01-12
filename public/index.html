@@ -21,7 +21,7 @@
       e design
     </title>
   </head>
-  <body>
+  <body >
     <header class="l-hero">
       <img src="./src/img/logo.png" class="logo" alt="Logo" />
       <span class="badge badge--header">obras finalizadas</span>
@@ -145,20 +145,21 @@
       <script src="/public/src/js/index.js"></script>
     -->
     <script>
+      const heroSection = document.querySelector('.l-hero')
+      const mainSection = document.querySelector('.l-main')
+      const beforeElementHero = document.querySelector('.l-hero .c-image')
       const lista = document.querySelector('.c-contacts')
-
-const changeFather = () => {
-  const desktop = window.matchMedia('(min-width: 800px)')
-
-  if (desktop.matches) {
-    document.querySelector('.l-hero').appendChild(lista)
-  } else {
-    document.querySelector('.l-main').appendChild(lista)
-  }
-}
-
-window.addEventListener('resize', changeFather)
-
+      
+      const changePosition = () => {
+        const otherList = lista.cloneNode()
+        if(window.innerWidth >= 800){
+          heroSection.insertBefore(lista, beforeElementHero)
+        }else if(window.innerWidth <= 799){
+          mainSection.appendChild(lista)
+        }
+      }
+      window.innerWidth >= 800 ? changePosition() : changePosition 
+      window.addEventListener("resize", changePosition)
     </script>
   </body>
 </html>
