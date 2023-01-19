@@ -1,5 +1,5 @@
 # Imobiliária Imóveis
-*Este é um teste prático aplicado na segunda fase do processo seletivo para empresa Infoideias.*
+*Este é um teste prático aplicado na segunda fase de um processo seletivo.*
 
 |        Vaga desejada       |       Data do processo       |        Techs       |
 |:--------------------------:|:----------------------------:|:------------------:|
@@ -7,7 +7,7 @@
 ----
 
 ## Sobre desafio
-Este desafio foi uma prova prática de processo seletivo, a empresa Infoideias disponibilizou aos candidatos aprovados na primeira fase uma logomarca e algumas instruções.
+Este desafio foi uma prova prática, a empresa disponibilizou aos candidatos aprovados na primeira fase uma logomarca e algumas instruções.
 
 Com base nas primícias dois banners deveriam ser criados, um para exibição em dispositivos móveis e outro para desktop.
 
